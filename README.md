@@ -1,11 +1,17 @@
 # UI-Inventory-TESTE
 Possui um menu de debug para testes onde você pode acrescentar qualquer item listado na quantidade que deseja (de 1-20).
 
+##Controles
+- I: Abrir/Fechar inventário
+- Mouse: Selecionar slot
+- Barra de Espaço: Executar ação do item
+
 ## Estrutura Básica
 Decidi optar organizar a estrutura da seguinte forma:
 
 > Struct Slot que irá conter um tipo de Struct Item.
-> Struct Inventário que irá conter um aglomerado de Struct Slot.
+
+> Struct Inventário que irá conter um ds_grid contendo Struct Slot.
 
 ### Item
 > _Item()
