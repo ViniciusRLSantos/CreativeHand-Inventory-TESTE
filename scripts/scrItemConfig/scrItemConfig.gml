@@ -39,7 +39,7 @@ function Food() : Item() constructor {
 #endregion
 
 
-#region Items Constructors
+#region Item Constructors
 function Sword() : Tool() constructor {
   name = "Sword";
   sprite = sword;
@@ -58,7 +58,7 @@ function FishingRod() : Tool() constructor {
   description = "Try catching a [c_aqua]Gyarados[/c]!";
   
   Action = function() {
-    show_debug_message("*Throws rod* You may or may not catch a fish sometime")
+    show_debug_message("*Throws rod* You may or may not catch a fish")
   }
   __ResetInfo();
 }

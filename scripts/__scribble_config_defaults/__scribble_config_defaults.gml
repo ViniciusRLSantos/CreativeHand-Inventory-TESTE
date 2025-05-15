@@ -40,13 +40,13 @@
 
 
 //Default wave amplitude, in pixels.
-#macro SCRIBBLE_DEFAULT_WAVE_SIZE  4
+#macro SCRIBBLE_DEFAULT_WAVE_SIZE  1
 
 //Default wave frequency. Larger values create more "humps" over a certain number of characters.
-#macro SCRIBBLE_DEFAULT_WAVE_FREQUENCY  50
+#macro SCRIBBLE_DEFAULT_WAVE_FREQUENCY  100
 
 //Default wave speed. Larger numbers cause characters to move up and down more rapidly.
-#macro SCRIBBLE_DEFAULT_WAVE_SPEED  0.2
+#macro SCRIBBLE_DEFAULT_WAVE_SPEED  0.1
 
 
 

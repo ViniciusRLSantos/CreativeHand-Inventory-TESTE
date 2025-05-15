@@ -1,4 +1,4 @@
-inventory = new Inventory(4, 3);
+inventory = new Inventory(3, 5);
 inventory.InventoryInsert(new Carrot(), 200);
 inventory.InventoryInsert(new Fish(), 10);
 display_set_gui_size(RESOLUTION_WIDTH, RESOLUTION_HEIGHT);
