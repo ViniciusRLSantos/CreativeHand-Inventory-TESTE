@@ -1,7 +1,7 @@
 # UI-Inventory-TESTE
 Possui um menu de debug para testes onde você pode acrescentar qualquer item listado na quantidade que deseja (de 1-20).
 
-##Controles
+## Controles
 - I: Abrir/Fechar inventário
 - Mouse: Selecionar slot
 - Barra de Espaço: Executar ação do item
